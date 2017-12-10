@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner_protocol_select"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="确认"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/button_confirm" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:text="上"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/button_up"/>
+                <Button
+                    android:text="下"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/button_down" />
+
+                <Button
+                    android:text="右"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button_right"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true" />
+
+                <Button
+                    android:text="左"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button_left"
+                    android:layout_alignBaseline="@+id/button_right"
+                    android:layout_alignBottom="@+id/button_right"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true" />
+
+                <Button
+                    android:text="抓"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button_catch"
+                    android:layout_alignBaseline="@+id/button_right"
+                    android:layout_alignBottom="@+id/button_right"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:text="投币"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button_addcoin"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:text="设置"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_setting"
+                    android:layout_weight="1.99" />
+
+                <Spinner
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/spinner_param_setting"
+                    android:layout_weight="5" />
+
+                <EditText
+                    android:hint="次数"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/text_setting_time"
+                    android:layout_weight="2" />
+
+                <EditText
+                    android:hint="设置值"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/text_setting_value"
+                    android:layout_weight="2" />
+
+                <Button
+                    android:text="发送"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/button_setting"
+                    android:layout_weight="2" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:text="查询"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_query"
+                    android:layout_weight="1.99" />
+
+                <Spinner
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/spinner_param_query"
+                    android:layout_weight="5" />
+
+                <EditText
+                    android:hint="次数"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/text_query_time"
+                    android:layout_weight="2" />
+
+                <Button
+                    android:text="发送"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/button_query"
+                    android:layout_weight="2" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <EditText
+                    android:hint="随机次数"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/text_random_command_time"
+                    android:layout_weight="2" />
+
+                <Button
+                    android:text="发送随机指令"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/button_random_command"
+                    android:layout_weight="2" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/scrollview_debug_log"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp" >
+            <TextView
+                android:id="@+id/text_debug_log"
+                android:hint="这里是打印的信息"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </ScrollView>
+
+        <Button
+            android:text="清除日志"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_clear_log" />
+    </LinearLayout>
+</LinearLayout>

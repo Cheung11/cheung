@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="protocol_select">
+        <item>娃娃机LIERFANG</item>
+    </string-array>
+    <string-array name="lierfang_tianche_setting_select">
+        <item>设置强抓力</item>
+        <item>设置弱抓力</item>
+        <item>设置默认游戏时间</item>
+        <item>设置概率</item>
+        <item>设置启动币数</item>
+        <item>设置强转弱时间</item>
+        <item>设置游戏模式</item>
+        <item>设置出奖模式</item>
+        <item>清空概率队列</item>
+    </string-array>
+    <string-array name="lierfang_tianche_query_select">
+        <item>查询强抓力</item>
+        <item>查询弱抓力</item>
+        <item>查询默认游戏时间</item>
+        <item>查询概率</item>
+        <item>查询启动币数</item>
+        <item>查询强转弱时间</item>
+        <item>查询游戏模式</item>
+        <item>查询出奖模式</item>
+        <item>查询概率队列</item>
+        <item>查询剩余币数</item>
+    </string-array> <string-array name="guwei_tianche_setting_select">
+        <item>设置强抓力</item>
+        <item>设置弱抓力</item>
+        <item>设置增强抓力</item>
+        <item>设置默认游戏时间</item>
+        <item>设置概率</item>
+        <item>设置启动币数</item>
+        <item>设置弱抓力维持时间</item>
+        <item>设置出物口位置</item>
+        <item>设置光眼极性</item>
+        <item>设置左右电机速度</item>
+        <item>设置前后电机速度</item>
+        <item>设置上下电机速度</item>
+        <item>设置强力补送</item>
+        <item>设置横保护区</item>
+        <item>设置纵保护区</item>
+        <item>清空概率队列</item>
+    </string-array>
+    <string-array name="guwei_tianche_query_select">
+        <item>查询强抓力</item>
+        <item>查询弱抓力</item>
+        <item>查询增强抓力</item>
+        <item>查询默认游戏时间</item>
+        <item>查询概率</item>
+        <item>查询启动币数</item>
+        <item>查询弱抓力维持时间</item>
+        <item>查询出物口位置</item>
+        <item>查询光眼极性</item>
+        <item>查询左右电机速度</item>
+        <item>查询前后电机速度</item>
+        <item>查询上下电机速度</item>
+        <item>查询强力补送</item>
+        <item>查询横保护区</item>
+        <item>查询纵保护区</item>
+        <item>查询概率队列</item>
+    </string-array>
+    <string-array name="guwei_tianche_award_mode_select">
+        <item>弱抓力模式</item>
+        <item>随机补模式</item>
+        <item>固定补模式</item>
+        <item>随机不补模式</item>
+        <item>固定不补模式</item>
+    </string-array>
+    <string-array name="guwei_paopaoche_setting_select">
+        <item>设置速度</item>
+    </string-array>
+    <string-array name="guwei_paopaoche_query_select">
+        <item>查询机台状态</item>
+    </string-array>
+</resources>

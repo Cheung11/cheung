@@ -1,1 +1,1 @@
-include ':app', ':detechhardwarelib'
+include ':app'

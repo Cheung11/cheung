@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity{
                 .dollMachineCallback(myDollMachineCallback)
                 .portStateListener(myDollMachineCallback)
                 .exceptionListener(myDollMachineCallback);
-        HardwareManager.getInst().initConfig(option);
+        HardwareManager.getInst().initConfig(this, option);
         HardwareManager.getInst().open();
     }
 
